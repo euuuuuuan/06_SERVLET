@@ -35,11 +35,11 @@ public class ServiceMethodTestServlet extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        System.out.println("GET 요청을 처리할 메소드 호출");
+        System.out.println("POST 요청을 처리할 메소드 호출");
     }
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        System.out.println("POST 요청을 처리할 메소드 호출");
+        System.out.println("GET 요청을 처리할 메소드 호출");
     }
 }
