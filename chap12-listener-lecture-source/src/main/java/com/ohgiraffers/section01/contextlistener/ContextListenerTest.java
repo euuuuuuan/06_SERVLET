@@ -19,13 +19,13 @@ public class ContextListenerTest implements ServletContextListener, ServletConte
     * 1. context (-> 톰캣 컨테이너 자체에 리스너를 연결)
     *   1-1. ServletContextListener:
     *       - 웹 어플리케이션의 시작, 종료에 대한 이벤트 리스너
-    *   1-2. ServletContextAttributeListner:
+    *   1-2. ServletContextAttributeListener:
     *       - context에 attribute를 추가, 제거, 수정에 대한 이벤트 리스너
     * */
 
     public ContextListenerTest() {
         // context가 생성될 때 변화를 감지하는 Listener 인스턴스가 생성된다.
-        System.out.println("context listner 인스턴스 생성");
+        System.out.println("context listener 인스턴스 생성");
     }
 
     @Override
