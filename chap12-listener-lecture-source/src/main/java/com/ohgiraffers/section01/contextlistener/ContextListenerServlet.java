@@ -6,7 +6,7 @@ import jakarta.servlet.annotation.WebServlet;
 
 import java.io.IOException;
 
-@WebServlet("/")
+@WebServlet("/context")
 public class ContextListenerServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

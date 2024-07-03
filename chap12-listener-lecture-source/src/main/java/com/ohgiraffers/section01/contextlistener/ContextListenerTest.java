@@ -32,7 +32,6 @@ public class ContextListenerTest implements ServletContextListener, ServletConte
     public void attributeAdded(ServletContextAttributeEvent event) {
         // context에 attribute가 추가될 때 동작하는 메소드
         System.out.println("context attribute added!");
-
     }
 
     @Override
